@@ -1,0 +1,54 @@
+{
+  "ping": {
+    "titlep": ":ping_pong: Pong!",
+    "title": "**API** Latency"
+  },
+  "guild": {
+    "title": "Language",
+    "description": "Set the language for your server."
+  },
+  "party": {
+    "buttons": {
+      "accept": "Accept",
+      "decline": "Decline"
+    },
+    "embeds": {
+      "start": {
+        "title": "You got invited!",
+        "description": [
+          "Hey!",
+          "invited you to play a game of **HyperType** in"
+        ]
+      },
+      "status": {
+        "title": "Party overview",
+        "fields": [
+          { "name": "Created by" },
+          {
+            "name": "Invited player status",
+            "value": "Awaiting response from player"
+          }
+        ]
+      },
+      "statusAccepted": {
+        "title": "Party overview",
+        "fields": [
+          { "name": "Created by" },
+          { "name": "Invited player status", "value": ["joined", "declined"] }
+        ]
+      },
+      "noPartyCreated": {
+        "title": "Oops...",
+        "description": "You don't have a party to disband."
+      },
+      "partyDisbanned": {
+        "title": "Disbanned Party",
+        "description": "You have been disbanned from the party"
+      },
+      "alreadyInParty": {
+        "title": "Oops...",
+        "description": "You already have a party active!"
+      }
+    }
+  }
+}

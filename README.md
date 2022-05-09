@@ -1,1 +1,1 @@
-# hypertyper
+# HyperTyper Discord Bot
